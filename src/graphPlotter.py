@@ -10,7 +10,7 @@ class DataChartPlotter:
 
     def plot_data_chart(self):
         """
-        A function that plots total sales per product using a bar chart.
+        A function that plots dataframe as a bar chart.
         """
 
         # Create a new figure with a specified size
