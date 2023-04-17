@@ -30,7 +30,7 @@ class SalesDataAnalysis:
         """
 
         # Calculate the total sales price for each product
-        sales_by_product = self.dataframe.groupby('Product Name').apply(lambda x: (x['Sale Price'] * x['Quantity Sold']).sum())
+        sales_by_product = self.dataframe.groupby('Product Name').apply(lambda x: (x['Sale Price'] * x['Quantity Sold']).sum()).round(2)
 
         # Sort the products by total sales in descending order
         sales_by_product = sales_by_product.sort_values(ascending=False)
