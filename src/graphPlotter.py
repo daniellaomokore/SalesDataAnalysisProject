@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 
 
 class DataChartPlotter:
+    """
+    A class that performs creates a CSV from the dataframes of sales data analysis.
+    """
     def __init__(self, dataframe, y_column, xlabel, ylabel):
         self.dataframe = dataframe
         self.y_column = y_column
