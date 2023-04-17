@@ -10,7 +10,6 @@ class SalesDataAnalysis:
         self.dataframe = self.get_sales_data()
 
 
-    # Define a function that loads the sales data from a CSV file into a DataFrame
     def get_sales_data(self):
         """
         A funcion that returns the sales data from a CSV file into a DataFrame.
@@ -25,7 +24,6 @@ class SalesDataAnalysis:
 
 
 
-    # Define a function that calculates the total sales per product
     def total_sales_per_product(self):
         """
         A funcion that returns the total sales per product.
@@ -46,8 +44,6 @@ class SalesDataAnalysis:
 
 
 
-
-    # Define a function that calculates the average sale price for each product category
     def average_sale_price_per_category(self):
         """
         A funcion that returns the average sale price for each product category.
@@ -65,8 +61,6 @@ class SalesDataAnalysis:
 
 
 
-
-    # Define a function that finds the month of highest and lowest sales
     def highest_and_lowest_sales_month(self):
         """
         A funcion that returns the month of highest and lowest sales, given the sales data with columns "Month",
@@ -100,7 +94,6 @@ class SalesDataAnalysis:
 
 
 
-    # Define a function that finds the customer who made the most and least purchases and how much they spent in total
     def highest_and_lowest_spending_customers(self):
         """
         A funcion that returns the customer who made the most and least purchases and how much they spent in total.
@@ -134,7 +127,6 @@ class SalesDataAnalysis:
 
 
 
-    # Define a function that finds the median sale price
     def median_sale_price(self):
         """
             A funcion that returns the median sale price.
