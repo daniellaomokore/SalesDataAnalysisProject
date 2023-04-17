@@ -2,6 +2,9 @@ import pandas as pd
 
 
 class CSVForDataAnalysis:
+    """
+    A class that performs creates a CSV from the dataframes of sales data analysis.
+    """
     # The asterisk (*) in front of a parameter allows the function to accept a variable number of arguments as a tuple.
     def save_dataframes_to_csv(self, *dataframes):
         """
