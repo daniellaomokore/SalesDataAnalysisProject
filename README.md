@@ -25,7 +25,7 @@ Task: Analyse sales data for a small ecommerce company using Pandas and Matplotl
 ✨<b>Features:</b>
 
 - Object Oriented Programming & clean code
-- Good use of functions for each task
+- Good use of classes and functions for each task
 - Well commented & easy to read clean code
 - Used Matplotlib to create detailed graphs of the sales data
 
