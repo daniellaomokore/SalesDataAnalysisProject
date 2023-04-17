@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 class DataChartPlotter:
     """
-    A class that performs creates a CSV from the dataframes of sales data analysis.
+    A class to create a matplotlib graph
     """
     def __init__(self, dataframe, y_column, xlabel, ylabel):
         self.dataframe = dataframe
@@ -13,9 +13,8 @@ class DataChartPlotter:
 
     def plot_data_chart(self):
         """
-        A function that plots dataframe as a bar chart.
+        A function that plots a dataframe as a bar chart.
         """
-
         # Create a new figure with a specified size
         plt.figure(figsize=(12, 6))
 
